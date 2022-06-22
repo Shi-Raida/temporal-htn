@@ -1,0 +1,19 @@
+
+**** Causal links ****
+
+
+
+**** Decomposition ****
+
+==>
+2 (action1)
+3 (action2)
+root 1
+1 (task1) -> method1 2 3
+<==
+
+
+**** Plan ****
+
+ 5: (action1) [1.000]
+ 6: (action2) [2.000]

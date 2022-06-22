@@ -1,0 +1,17 @@
+
+**** Causal links ****
+
+Condition on (at R) of action (m-already-there R L0)
+  Support by effect of action PROBLEM
+
+
+**** Decomposition ****
+
+==>
+root 2
+2 (go R L0) -> m-already-there
+<==
+
+
+**** Plan ****
+

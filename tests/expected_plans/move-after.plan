@@ -1,0 +1,19 @@
+
+**** Causal links ****
+
+Condition on (at R L0) of action (move R L0 L1)
+  Support by effect of action PROBLEM
+
+
+**** Decomposition ****
+
+==>
+3 (move R L0 L1)
+root 1
+1 (go R L1) -> m-go 3
+<==
+
+
+**** Plan ****
+
+15: (move R L0 L1) [10.000]

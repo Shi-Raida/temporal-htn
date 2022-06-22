@@ -1,0 +1,23 @@
+
+**** Causal links ****
+
+Condition on (flag-start-action1) of action (action2 R)
+  Support by effect of action (action1 R)
+
+
+**** Decomposition ****
+
+==>
+4 (action1 R)
+5 (action2 R)
+root 1
+1 (task1 R) -> method1 2 3
+2 (task2 R) -> method2 4
+3 (task3 R) -> method3 5
+<==
+
+
+**** Plan ****
+
+ 5: (action1 R) [1.000]
+ 5: (action2 R) [2.000]

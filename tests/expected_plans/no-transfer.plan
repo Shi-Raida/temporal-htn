@@ -1,0 +1,17 @@
+
+**** Causal links ****
+
+Condition on (at P L1) of action (m-already-transferred P L1)
+  Support by effect of action PROBLEM
+
+
+**** Decomposition ****
+
+==>
+root 2
+2 (transfer P L1) -> m-already-transferred
+<==
+
+
+**** Plan ****
+

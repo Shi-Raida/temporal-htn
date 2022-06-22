@@ -1,0 +1,29 @@
+
+**** Causal links ****
+
+Condition on (at R) of action (move R L1 L0)
+  Support by effect of action (move R L0 L1)
+Condition on (at R) of action (move R L0 L1)
+  Support by effect of action PROBLEM
+Condition on (at R) of action (move R L0 L1)
+  Support by effect of action (move R L1 L0)
+
+
+**** Decomposition ****
+
+==>
+7 (move R L0 L1)
+8 (move R L1 L0)
+9 (move R L0 L1)
+root 1 3 5
+1 (go R L1) -> m-go 7
+3 (go R L0) -> m-go 8
+5 (go R L1) -> m-go 9
+<==
+
+
+**** Plan ****
+
+ 0: (move R L0 L1) [0.100]
+0.1: (move R L1 L0) [0.100]
+0.2: (move R L0 L1) [0.100]

@@ -1,0 +1,39 @@
+
+**** Causal links ****
+
+Condition on (at R L1) of action (move R L1 L2)
+  Support by effect of action (move R L0 L1)
+Condition on (at R L0) of action (move R L0 L1)
+  Support by effect of action PROBLEM
+Condition on (holding R P) of action (drop R P L2)
+  Support by effect of action (pick-up R P L1)
+Condition on (at R L1) of action (pick-up R P L1)
+  Support by effect of action (move R L0 L1)
+Condition on (at P L1) of action (pick-up R P L1)
+  Support by effect of action PROBLEM
+Condition on (empty R) of action (pick-up R P L1)
+  Support by effect of action PROBLEM
+Condition on (at R L2) of action (drop R P L2)
+  Support by effect of action (move R L1 L2)
+
+
+**** Decomposition ****
+
+==>
+10 (move R L0 L1)
+5 (pick-up R P L1)
+11 (move R L1 L2)
+9 (drop R P L2)
+root 1
+1 (transfer P L2) -> m-tranfer 3 5 7 9
+3 (go R L1) -> m-go 10
+7 (go R L2) -> m-go 11
+<==
+
+
+**** Plan ****
+
+ 0: (move R L0 L1) [0.100]
+0.1: (pick-up R P L1) [0.100]
+0.2: (move R L1 L2) [0.100]
+0.3: (drop R P L2) [0.100]

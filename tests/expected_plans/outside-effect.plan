@@ -1,0 +1,21 @@
+
+**** Causal links ****
+
+Condition on (predicate) of action (action with condition)
+  Support by effect of action (action with effect)
+
+
+**** Decomposition ****
+
+==>
+2 (action with effect)
+3 (action with condition)
+root 1
+1 (task) -> method 2 3
+<==
+
+
+**** Plan ****
+
+ 0: (action with effect) [2.000]
+ 5: (action with condition) [0.100]
